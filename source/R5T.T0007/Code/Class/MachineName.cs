@@ -2,9 +2,12 @@
 
 using R5T.Stagira;
 
+using R5T.T0150;
+
 
 namespace R5T.T0007
 {
+    [StrongTypeMarker]
     public class MachineName : TypedString
     {
         #region Static
